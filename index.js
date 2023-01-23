@@ -16,7 +16,7 @@ app.use(express.json())
 
 app.get('/', (req, res) => {
 
-    res.json({ message: 'hi'}) //test/depois colocar vendedores, cliente e vendas nessas rotas
+    res.json({ message: 'hi'}) //test/depois colocar vendedores, cliente e vendas nessas rota
 })
 
 
